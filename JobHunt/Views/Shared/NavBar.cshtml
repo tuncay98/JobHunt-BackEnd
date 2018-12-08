@@ -1,0 +1,46 @@
+﻿    <!-- Preloader -->
+<div id="preloader">
+    <div id="loader"></div>
+</div>
+<!-- Header -->
+<header class="account-header">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="site-nav-wrapper">
+                <div class="navbar-header">
+                    <!-- Mobile Menu Open Button -->
+                    <span id="mobile-nav-open-btn">&#9776;</span>
+                    <!-- Logo -->
+                    <a class="navbar-brand smooth-scroll" href="@Url.Action("Index","Home")">
+                        <img src="http://placehold.it/178x40" alt="logo">
+                    </a>
+                </div>
+                <!-- Main Menu -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a class="active" href="@Url.Action("Index","Home")">Home</a></li>
+                        <li><a href="@Url.Action("HowItWorks","Home")">How it works</a></li>
+                        <li><a href="@Url.Action("Blog","Home")">Blog</a></li>
+                        <li class="signin-popup"><a>Log in</a></li>
+                        <li class="signup-popup"><a>Sign up</a></li>
+                    </ul>
+                </div>
+                <!-- Mobile Menu -->
+                <div id="mobile-nav">
+                    <!-- Mobile Menu Close Button -->
+                    <span id="mobile-nav-close-btn">&times;</span>
+                    <div id="mobile-nav-content">
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="how-it-works.html">How it works</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li class="signin-popup"><a>Log in</a></li>
+                            <li class="signup-popup"><a>Sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Header Ends -->

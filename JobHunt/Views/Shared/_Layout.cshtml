@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Main Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Cowork</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/Public/css/font-awesome/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Public/css/bootstrap/bootstrap.css">
+    <!-- Chosen CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Public/css/chosen.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Public/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="~/Public/css/slick-theme.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Public/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Public/css/responsive.css">
+</head>
+
+<body>
+
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer>
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-4 column">
+                        <div class="widget">
+                            <!-- About Widget -->
+                            <div class="about_widget">
+                                <div class="logo">
+                                    <a href="#" title=""><img src="http://placehold.it/178x40" alt="" /></a>
+                                </div>
+                                <span>Collin Street West, Victor 8007, Australia.</span>
+                                <span>+1 246-345-0695</span>
+                                <span>info@jobhunt.com</span>
+                                <div class="social">
+                                    <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                                    <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                                    <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+                                    <a href="#" title=""><i class="fa fa-pinterest"></i></a>
+                                    <a href="#" title=""><i class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-8 column">
+                        <div class="widget">
+                            <h3 class="footer-title">Frequently Asked Questions</h3>
+                            <div class="link_widgets">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <a href="#" title="">Privacy & Seurty </a>
+                                        <a href="#" title="">Terms of Serice</a>
+                                        <a href="#" title="">Communications </a>
+                                        <a href="#" title="">Referral Terms </a>
+                                        <a href="#" title="">Lending Licnses </a>
+                                        <a href="#" title="">Disclaimers </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <a href="#" title="">Support </a>
+                                        <a href="#" title="">How It Works </a>
+                                        <a href="#" title="">For Employers </a>
+                                        <a href="#" title="">Underwriting </a>
+                                        <a href="#" title="">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-line">
+            <span>© 2018 Jobhunt All rights reserved. Design by Creative Layers</span>
+            <a class="scrollup" title=""><i class="fa fa-arrow-up"></i></a>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Account Popups - Login Popup -->
+    <div class="account-popup-area signin-popup-box">
+        <div class="account-popup">
+            <span class="close-popup"><i class="fa fa-close"></i></span>
+            <h3>User Login</h3>
+            <span>Click To Login With Demo User</span>
+            <div class="select-user">
+                <span>Candidate</span>
+                <span>Employer</span>
+            </div>
+            <form>
+                <div class="cfield">
+                    <input type="text" placeholder="Username" />
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="cfield">
+                    <input type="password" placeholder="********" />
+                    <i class="fa fa-key"></i>
+                </div>
+                <p class="remember-label">
+                    <input type="checkbox" name="cb" id="cb1"><label for="cb1">Remember me</label>
+                </p>
+                <a href="#" title="">Forgot Password?</a>
+                <button type="submit">Login</button>
+            </form>
+            <div class="extra-login">
+                <span>Or</span>
+                <div class="login-social">
+                    <a class="fb-login" href="#" title=""><i class="fa fa-facebook"></i></a>
+                    <a class="go-login" href="#" title=""><i class="fa fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Account Popups - Signup Popup -->
+    <div class="account-popup-area signup-popup-box">
+        <div class="account-popup">
+            <span class="close-popup"><i class="fa fa-close"></i></span>
+            <h3>Sign Up</h3>
+            <div class="select-user">
+                <span>Candidate</span>
+                <span>Employer</span>
+            </div>
+            <form>
+                <div class="cfield">
+                    <input type="text" placeholder="Username" />
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="cfield">
+                    <input type="password" placeholder="Password" />
+                    <i class="fa fa-key"></i>
+                </div>
+                <div class="cfield">
+                    <input type="text" placeholder="Email" />
+                    <i class="fa fa-envelope-o"></i>
+                </div>
+                <div class="dropdown-field">
+                    <select data-placeholder="Please Select Specialism" class="chosen">
+                        <option>Web Development</option>
+                        <option>Web Designing</option>
+                        <option>Art & Culture</option>
+                        <option>Reading & Writing</option>
+                    </select>
+                </div>
+                <div class="cfield">
+                    <input type="text" placeholder="Phone Number" />
+                    <i class="fa fa-phone"></i>
+                </div>
+                <button type="submit">Signup</button>
+            </form>
+            <div class="extra-login">
+                <span>Or</span>
+                <div class="login-social">
+                    <a class="fb-login" href="#" title=""><i class="fa fa-facebook"></i></a>
+                    <a class="go-login" href="#" title=""><i class="fa fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @RenderSection("Home", required: false)
+    @RenderSection("HowItWorks", required: false)
+    @RenderSection("Blog", required: false)
+    @RenderSection("LogIn", required: false)
+    @RenderSection("Register", required: false)
+
+</body>
+</html>
